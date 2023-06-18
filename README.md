@@ -1,18 +1,18 @@
 WikiSort
 ======
-WikiSort is an implementation of "block merge sort", which is a stable merge sort based on the work described in ["Ratio based stable in-place merging", by Pok-Son Kim and Arne Kutzner](https://github.com/BonzaiThePenguin/WikiSort/blob/master/tamc2008.pdf) [PDF]. It's generally as fast as a standard merge sort while using O(1) memory, and can be modified to use additional memory optionally provided to it which can further improve its speed.
+WikiSort is an implementation of "block merge sort", which is a stable merge sort based on the work described in "Ratio based stable in-place merging", by Pok-Son Kim and Arne Kutzner. It's generally as fast as a standard merge sort while using O(1) memory, and can be modified to use additional memory optionally provided to it which can further improve its speed.
 
-[C](https://github.com/BonzaiThePenguin/WikiSort/blob/master/WikiSort.c), [C++](https://github.com/BonzaiThePenguin/WikiSort/blob/master/WikiSort.cpp), and [Java](https://github.com/BonzaiThePenguin/WikiSort/blob/master/WikiSort.java) versions are currently available, and you have permission from me and the authors of the paper (Dr. Kim and Dr. Kutzner) to [do whatever you want with this code](https://github.com/BonzaiThePenguin/WikiSort/blob/master/LICENSE).
+[C](https://github.com/pystraf/wikisort/blob/master/WikiSort.c), [C++](https://github.com/pystraf/wikisort/blob/master/WikiSort.cpp), and [Java](https://github.com/pystraf/wikisort/blob/master/WikiSort.java) versions are currently available, and you have permission from me and the authors of the paper (Dr. Kim and Dr. Kutzner) to [do whatever you want with this code](https://github.com/pystraf/wikisort/blob/master/LICENSE).
 
-**Related:** Check out the [GrailSort project](https://github.com/Mrrl/GrailSort) for a similar algorithm based on a paper by Huang and Langston, or the [Rewritten Grailsort project](https://github.com/MusicTheorist/Rewritten-Grailsort) which continues its work.
+**Related:** Check out the [GrailSort project](https://github.com/Mrrl/GrailSort) for a similar algorithm based on a paper by Huang and Langston, or the [Rewritten Grailsort project](https://github.com/HolyGrailSortProject/Rewritten-Grailsort) which continues its work.
 
 * * *
 
 **If you want to learn how it works, check out the documentation:**<br/>
-&nbsp;&nbsp;• [Chapter 1: Tools](https://github.com/BonzaiThePenguin/WikiSort/blob/master/Chapter%201.%20Tools.md)<br/>
-&nbsp;&nbsp;• [Chapter 2: Merging](https://github.com/BonzaiThePenguin/WikiSort/blob/master/Chapter%202.%20Merging.md)<br/>
-&nbsp;&nbsp;• [Chapter 3: In-Place](https://github.com/BonzaiThePenguin/WikiSort/blob/master/Chapter%203.%20In-Place.md)<br/>
-&nbsp;&nbsp;• [Chapter 4: Faster!](https://github.com/BonzaiThePenguin/WikiSort/blob/master/Chapter%204.%20Faster!.md)
+&nbsp;&nbsp;• [Chapter 1: Tools](https://github.com/pystraf/wikisort/blob/master/Chapter%201.%20Tools.md)<br/>
+&nbsp;&nbsp;• [Chapter 2: Merging](https://github.com/pystraf/wikisort/blob/master/Chapter%202.%20Merging.md)<br/>
+&nbsp;&nbsp;• [Chapter 3: In-Place](https://github.com/pystraf/wikisort/blob/master/Chapter%203.%20In-Place.md)<br/>
+&nbsp;&nbsp;• [Chapter 4: Faster!](https://github.com/pystraf/wikisort/blob/master/Chapter%204.%20Faster!.md)
 
 Or you can check out the [Wikipedia page](https://en.wikipedia.org/wiki/Block_Sort) for block merge sort. WikiSort was actually (poorly) named out of the hope that you'll update and improve its various components almost like a Wikipedia article, since this is still very much an open area of research that could use your expertise!<br/>
 
